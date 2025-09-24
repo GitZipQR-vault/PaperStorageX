@@ -1,5 +1,6 @@
 # PaperStorageX  
 
+# 1 GB = 250 PAGE A4 @ 600 DPI, field 5mm (11760 × 8268 px)
 **Printable Secure Storage — Multi-page, Flexible Formats, Always-On Encryption**  
 
 PaperStorageX is a C++ utility that lets you archive and encrypt arbitrary data, encode it into printable PDF pages, and later reconstruct it back with full cryptographic integrity.  
