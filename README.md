@@ -45,11 +45,11 @@ They define how data bits are mapped to printable cells. Not all printer/scanner
 # CLI USAGE
 - Encode
 ```bash
-./paperx encode --bin secret.bin --page A3 docs/ archive
+./paperx encode --bin private.bin --page A3 --dpi 250 --folder data/test test.txt 
 ```
 - Decode
 ```bash
-./paperx decode --bin secret.bin archive.pdf restored.tar
+./paperx decode --bin private.bin --folder out/test data/test/test.pdf 
 ```
 - Reads all pages, validates UUID, GCM tags, SHA-256 checksum, then restores plaintext.
 

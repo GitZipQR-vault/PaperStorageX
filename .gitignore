@@ -3,6 +3,7 @@
 # Logs
 private
 data
+out
 logs
 _.log
 npm-debug.log_
